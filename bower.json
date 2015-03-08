@@ -1,0 +1,29 @@
+{
+  "name": "gulp-task-copy",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Kyle Florence <kyle.florence@joinmosaic.com>"
+  ],
+  "description": "Gulp task that copies files with glob pattern matching support.",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "mosaic",
+    "gulp",
+    "gulp-task",
+    "copy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.3"
+  }
+}
