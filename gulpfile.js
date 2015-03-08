@@ -1,8 +1,15 @@
 var gulp = require("gulp");
+var clean = require("mosaic-gulp-task-clean");
 var copy = require("./index");
 
-// Copy vendor files from bower components to the public folder
-gulp.task("copy", copy([
+gulp.task("clean", clean("public"));
+
+gulp.task("copy:single", ["clean"], copy(
+  "bower_components/bootstrap-sass/assets/javascripts/**/*.js",
+  "public/vendor/scripts"
+));
+
+gulp.task("copy:multiple", ["clean"], copy([
   {
     src: "bower_components/bootstrap-sass/assets/stylesheets/bootstrap{,/**/*.scss}",
     dest: "public/vendor/styles"
