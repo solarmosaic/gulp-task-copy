@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/solarmosaic/gulp-task-copy",
   "dependencies": {
-    "merge-stream": "^0.1.7",
+    "merge-stream": "^2.0.0",
     "vinyl-fs": "^1.0.0"
   },
   "devDependencies": {
