@@ -25,7 +25,7 @@
     "vinyl-fs": "^1.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.2",
     "mosaic-gulp-task-clean": "^1.0.1"
   }
 }
